@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.demo.tests.AddingProductsScenarios">
+        <methods>
+          <include name="applyPromoCode"/>
+          <include name="verifyProceedToCheckOutBtn"/>
+          <include name="loginToApp"/>
+          <include name="addingProducts"/>
+          <include name="deleteProduct"/>
+          <include name="adjustSize"/>
+          <include name="closeBrowser"/>
+          <include name="adjustQuantityOfItems"/>
+          <include name="launchBrowser"/>
+          <include name="AFconfig"/>
+        </methods>
+      </class> <!-- com.demo.tests.AddingProductsScenarios -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

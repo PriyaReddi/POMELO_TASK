@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92207" started-at="2021-11-11T05:57:58Z" finished-at="2021-11-11T05:59:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92207" started-at="2021-11-11T05:57:58Z" finished-at="2021-11-11T05:59:30Z">
+      <class name="com.demo.tests.AddingProductsScenarios">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="launchBrowser" is-config="true" duration-ms="3992" started-at="2021-11-11T05:57:58Z" finished-at="2021-11-11T05:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="loginToApp" is-config="true" duration-ms="8587" started-at="2021-11-11T05:58:02Z" finished-at="2021-11-11T05:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="addingProducts()[pri:0, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="addingProducts" duration-ms="32796" started-at="2021-11-11T05:58:10Z" finished-at="2021-11-11T05:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProducts -->
+        <test-method status="PASS" signature="adjustQuantityOfItems()[pri:1, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="adjustQuantityOfItems" duration-ms="528" started-at="2021-11-11T05:58:43Z" finished-at="2021-11-11T05:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adjustQuantityOfItems -->
+        <test-method status="PASS" signature="adjustSize()[pri:2, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="adjustSize" duration-ms="702" started-at="2021-11-11T05:58:43Z" finished-at="2021-11-11T05:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adjustSize -->
+        <test-method status="PASS" signature="applyPromoCode()[pri:3, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="applyPromoCode" duration-ms="8735" started-at="2021-11-11T05:58:44Z" finished-at="2021-11-11T05:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyPromoCode -->
+        <test-method status="PASS" signature="verifyProceedToCheckOutBtn()[pri:4, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="verifyProceedToCheckOutBtn" duration-ms="4829" started-at="2021-11-11T05:58:53Z" finished-at="2021-11-11T05:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProceedToCheckOutBtn -->
+        <test-method status="PASS" signature="deleteProduct()[pri:5, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="deleteProduct" duration-ms="31383" started-at="2021-11-11T05:58:58Z" finished-at="2021-11-11T05:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="closeBrowser" is-config="true" duration-ms="616" started-at="2021-11-11T05:59:29Z" finished-at="2021-11-11T05:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="AFconfig()[pri:0, instance:com.demo.tests.AddingProductsScenarios@4566e5bd]" name="AFconfig" is-config="true" duration-ms="0" started-at="2021-11-11T05:59:29Z" finished-at="2021-11-11T05:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFconfig -->
+      </class> <!-- com.demo.tests.AddingProductsScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
